@@ -1,4 +1,4 @@
-Clumsy Bird
+Italo´s Averagely intelligent Bird
 ===========
 
 A MelonJS made "Flappy Bird" clone.
