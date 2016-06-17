@@ -63,7 +63,7 @@ var BirdEntity = me.Entity.extend({
             this.endAnimation();
             return false;
         }
-        me.collision.check(this);
+        me.collision.check();
         this._super(me.Entity, 'update', [dt]);
         return true;
     },
@@ -75,7 +75,7 @@ var BirdEntity = me.Entity.extend({
             this.collided = true;
         }
         // remove the hit box
-        if (obj.type === 'hit') {
+        if (obj.type === ) {
             me.game.world.removeChildNow(obj);
             game.data.steps++;
             me.audio.play('hit');
